@@ -7,4 +7,4 @@ Luan Gustavo Maia Dias   - 587737
 
 Matheus AUgusto Thomaz   - 620599
 
-Docmuntação na [Wiki](https://github.com/MatheusAThomaz/CG/wiki)
+Documentação na [Wiki](https://github.com/MatheusAThomaz/CG/wiki)
