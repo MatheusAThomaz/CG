@@ -7,7 +7,7 @@
 		_Rotationx ("Rotationx", float) = 0.0
 		_Rotationy ("Rotationy", float) = 0.0
 		_Rotationz ("Rotationz", float) = 0.0
-		_flagOrder ("Flag", int) = 0
+		_Position ("Translation", Vector) = (0.0, 0.0, 0.0, 1.0)
 	}
 
 	SubShader
@@ -38,7 +38,7 @@
 			float _Rotationx;
 			float _Rotationy;
 			float _Rotationz;
-			int _flagOrder;
+			float3 _Position;
 
 			float4 RotateInX(float4 coord, float d)
 			{
@@ -77,6 +77,10 @@
 				v.vertex = RotateInX(v.vertex, _Rotationx);
 				v.vertex = RotateInY(v.vertex, _Rotationy);
 				v.vertex = RotateInZ(v.vertex, _Rotationz);
+
+				v.vertex.x = v.vertex.x + _Position.x;
+				v.vertex.y = v.vertex.y + _Position.y;
+				v.vertex.z = v.vertex.z + _Position.z;
 
 				o.vertex = UnityObjectToClipPos(v.vertex * _Scale);
 
