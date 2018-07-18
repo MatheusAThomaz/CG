@@ -59,6 +59,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\MaterialHandler.cs" />
     <Compile Include="Assets\MeshCreator.cs" />
     <Compile Include="Assets\rotatingCamera.cs" />
     <Compile Include="Assets\Rotation.cs" />

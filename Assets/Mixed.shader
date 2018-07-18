@@ -13,8 +13,10 @@
         _Shininess ("Shininess", Float) = 10 //Shininess
         _SpecColor ("Specular Color", Color) = (1, 1, 1, 1) //Specular highlights color
 
-		_Distortion ("Distortion", Float) = 0
-		_Doffset ("Distortion Offset", Float) = 0
+		[HideInInspector] _Distortion ("Distortion", float) = 10
+		[HideInInspector] _Doffset ("Distortion Offset", Vector) = (0.0, 0.0, 0.0, 1.0)
+
+		[HideInInspector] _CameraCoord ("Camera Coordinates", Vector) = (0.0, 0.0, 0.0, 1.0)
 	}
 
 	SubShader
@@ -57,7 +59,8 @@
 			float _Rotationz;
 			float3 _Position;
 			float _Distortion;
-			float _Doffset;
+			float4 _Doffset;
+			float4 _CameraCoord;
 
 			uniform float4 _LightColor0; //From UnityCG
 
@@ -66,6 +69,7 @@
             //uniform float4 _Color; //Use the above variables in here
             uniform float4 _SpecColor;
             uniform float _Shininess;
+
 
 			float4 RotateInX(float4 coord, float d)
 			{
@@ -112,7 +116,8 @@
 				v.vertex.y = v.vertex.y + _Position.y;
 				v.vertex.z = v.vertex.z + _Position.z;
 
-				v.vertex.y += sin(v.vertex.x*_Distortion + _Doffset);
+				if (_Doffset.x == 1)
+					v.vertex.y += sin(v.vertex.x*_Distortion + distance( v.vertex , _CameraCoord));
 
 				o.vertex = UnityObjectToClipPos(v.vertex);
 
