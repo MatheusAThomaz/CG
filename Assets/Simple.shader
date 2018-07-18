@@ -15,6 +15,7 @@
 
 		Pass
 		{
+
 			CGPROGRAM
 			#pragma vertex vert
 			#pragma fragment frag
@@ -24,7 +25,7 @@
 			struct appdata
 			{
 				float4 vertex : POSITION;
-				float2 uv : TEXCOORD0;
+                float2 uv : TEXCOORD0;
 			};
 
 			struct v2f
@@ -82,9 +83,12 @@
 				v.vertex.y = v.vertex.y + _Position.y;
 				v.vertex.z = v.vertex.z + _Position.z;
 
-				o.vertex = UnityObjectToClipPos(v.vertex * _Scale);
+				v.vertex = v.vertex * _Scale;
+
+				o.vertex = UnityObjectToClipPos(v.vertex);
 
 				o.uv = v.uv;
+
 				return o;
 			}
 

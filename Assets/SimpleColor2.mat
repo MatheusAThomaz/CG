@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: SimpleColor2
-  m_Shader: {fileID: 4800000, guid: a1c1d66a65a9a5740947b7791b782886, type: 3}
+  m_Shader: {fileID: 4800000, guid: fc863864832ca3348af60f3ff8d54788, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -54,6 +54,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Tex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Floats:
     - _BumpScale: 1
     - _Cutoff: 0.5
@@ -69,7 +73,8 @@ Material:
     - _Rotationx: 0
     - _Rotationy: 0
     - _Rotationz: 0
-    - _Scale: 2
+    - _Scale: 1
+    - _Shininess: 10
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
@@ -79,3 +84,5 @@ Material:
     m_Colors:
     - _Color: {r: 0, g: 1, b: 0.17241383, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Position: {r: 0, g: 0, b: 0, a: 1}
+    - _SpecColor: {r: 1, g: 1, b: 1, a: 1}
