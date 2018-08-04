@@ -10,6 +10,8 @@ public class MaterialHandler : MonoBehaviour
         GetComponent<Renderer>().sharedMaterial.SetVector("_CameraCoord", new Vector4(cam.position.x, cam.position.y, cam.position.z, 1));
 
         if (gameObject.name == "MeshCreatorFence")
-            GetComponent<Renderer>().sharedMaterial.SetVector("_Doffset", new Vector4(1, 0, 0, 1));
+            GetComponent<Renderer>().sharedMaterial.SetFloat("_Flag", 1f);
+        else
+            GetComponent<Renderer>().sharedMaterial.SetFloat("_Flag", 0f);
     }
 }

@@ -4,7 +4,7 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: TreeMixedPhongSimple 2
   m_Shader: {fileID: 4800000, guid: 450d9e40476b374459fcd322f291afcf, type: 3}
@@ -65,6 +65,7 @@ Material:
     - _Distortion: 0
     - _Doffset: 0
     - _DstBlend: 0
+    - _Flag: 0
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
@@ -83,7 +84,7 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _CameraCoord: {r: -2.973226, g: 2.5, b: -1.2851429, a: 1}
+    - _CameraCoord: {r: 6.833876, g: 2.5, b: 4.5205374, a: 1}
     - _Color: {r: 0, g: 1, b: 0.9353583, a: 1}
     - _Doffset: {r: 0, g: 0, b: 0, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
