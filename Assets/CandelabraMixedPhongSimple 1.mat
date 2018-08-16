@@ -74,9 +74,9 @@ Material:
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _Rotationx: 0
-    - _Rotationy: 0
-    - _Rotationz: 0
-    - _Scale: 2
+    - _Rotationy: 1.6
+    - _Rotationz: 4.8
+    - _Scale: 1
     - _Shininess: 10
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -84,9 +84,9 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _CameraCoord: {r: 6.833876, g: 2.5, b: 4.5205374, a: 1}
+    - _CameraCoord: {r: 2.8425133, g: 2.5, b: -4.13739, a: 1}
     - _Color: {r: 0, g: 1, b: 0.9353583, a: 1}
     - _Doffset: {r: 0, g: 0, b: 0, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _Position: {r: 4, g: -0.8, b: 0, a: 1}
+    - _Position: {r: 1.7, g: 0.59, b: 0, a: 1}
     - _SpecColor: {r: 1, g: 1, b: 1, a: 1}
