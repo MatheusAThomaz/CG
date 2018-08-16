@@ -25,6 +25,7 @@ GameObject:
   - component: {fileID: 114175512391458958}
   - component: {fileID: 114005137100899802}
   - component: {fileID: 114647415076437298}
+  - component: {fileID: 114965844142777992}
   m_Layer: 0
   m_Name: candelabra
   m_TagString: Untagged
@@ -144,3 +145,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   object_game: {fileID: 1540609971683952}
+--- !u!114 &114965844142777992
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1540609971683952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f251cf9c71b8e24488b90b0646301180, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}

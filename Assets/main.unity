@@ -283,6 +283,18 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1258354088213346, guid: 00120df02f2bffb448567692419b46a8,
     type: 2}
   m_PrefabInternal: {fileID: 877940307}
+--- !u!114 &277286751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 277286750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f251cf9c71b8e24488b90b0646301180, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  position: {x: 1.7, y: 1, z: 0}
 --- !u!114 &277286753
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -367,6 +379,10 @@ Prefab:
       propertyPath: points.Array.data[0]
       value: 
       objectReference: {fileID: 1662505373}
+    - target: {fileID: 1586590389610200, guid: 103f9684aaf348a41a0178f06145b6b8, type: 2}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 103f9684aaf348a41a0178f06145b6b8, type: 2}
   m_IsPrefabAsset: 0
@@ -755,6 +771,18 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1586590389610200, guid: 103f9684aaf348a41a0178f06145b6b8,
     type: 2}
   m_PrefabInternal: {fileID: 449640166}
+--- !u!114 &1131590835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1131590834}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f251cf9c71b8e24488b90b0646301180, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  position: {x: 1.7, y: 1, z: 0}
 --- !u!114 &1131590837
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1048,6 +1076,18 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1203043254209176, guid: 263085f119ce25f4991be35eb34fed93,
     type: 2}
   m_PrefabInternal: {fileID: 684641834}
+--- !u!114 &1641977415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1641977414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f251cf9c71b8e24488b90b0646301180, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  position: {x: 4.7, y: 1, z: 0}
 --- !u!114 &1641977417
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1112,6 +1152,18 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1421985563371544, guid: d087d0b2c9cf6c44ca47fe9c5f4e8153,
     type: 2}
   m_PrefabInternal: {fileID: 1628524779}
+--- !u!114 &1719789077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1719789076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f251cf9c71b8e24488b90b0646301180, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  position: {x: 1.7, y: 0.59, z: 0}
 --- !u!114 &1719789080
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1325,6 +1377,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   object_game: {fileID: 1806155389}
+--- !u!114 &1806155394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1806155389}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f251cf9c71b8e24488b90b0646301180, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  position: {x: 1.7, y: 0.59, z: 0}
 --- !u!1 &1868170747
 GameObject:
   m_ObjectHideFlags: 0
@@ -1446,6 +1510,7 @@ GameObject:
   - component: {fileID: 1913963813}
   - component: {fileID: 1913963812}
   - component: {fileID: 1913963814}
+  - component: {fileID: 1913963815}
   m_Layer: 0
   m_Name: MeshCreatorCandelabra
   m_TagString: Untagged
@@ -1588,6 +1653,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1913963815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1913963805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f251cf9c71b8e24488b90b0646301180, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}
 --- !u!1001 &2034137062
 Prefab:
   m_ObjectHideFlags: 0
@@ -1805,6 +1882,7 @@ GameObject:
   - component: {fileID: 2141313597}
   - component: {fileID: 2141313598}
   - component: {fileID: 2141313599}
+  - component: {fileID: 2141313600}
   m_Layer: 0
   m_Name: MeshCreatorCannon
   m_TagString: Untagged
@@ -1919,3 +1997,15 @@ MonoBehaviour:
   close: 0.1
   points:
   - {fileID: 2141313594}
+--- !u!114 &2141313600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2141313592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f251cf9c71b8e24488b90b0646301180, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  position: {x: 0, y: 0, z: 0}

@@ -16,7 +16,7 @@ public class EnableScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if(Input.GetKey("space")) {
+		if(Input.GetKeyDown("space")) {
 			MoveToTarget script;
     		script = object_game.GetComponent<MoveToTarget>();
      		script.enabled = true;
